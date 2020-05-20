@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index2/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#f22a55",
+    "navigationBarTitleText": "爱拼团",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"#f22a55",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pages/img/home.png",
+      "selectedIconPath": "/pages/img/home-o.png",
+      "color": "#f58297"
+    },
+    {
+    "pagePath": "pages/index2/index",
+    "text": "我的",
+    "iconPath": "/pages/img/my.png",
+    "selectedIconPath": "/pages/img/my-o.png"
+  }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

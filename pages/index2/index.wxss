@@ -1,0 +1,88 @@
+@import "./font//iconfont.wxss";
+.a{
+  background: #e9205a;
+  width: 375px;
+}
+.app{
+  height: 245px;
+}
+.app-a{
+  position: absolute;
+  top: 33%;
+  left: 25%;
+}
+
+
+.list{
+  width: 100%;
+  height: 245px;
+  background: white;
+  position: relative;
+}
+.list-a{
+  width: 100%;
+  position: relative;
+}
+.list-a-a{
+  width: 100%;
+  filter: blur(5px);
+}
+.list-b>image{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top:30%;
+  left:38%;
+}
+.list-c{
+  height: 10px;
+  position: absolute;
+  color: black;
+  top:65%;
+  left: 47%;
+}
+
+
+.text{
+  display: flex;
+  flex: 1;
+  height: 144rpx;
+  width: 100%;
+  background: white;
+  position: relative;
+  top: 10px;
+}
+.text-b{
+  font-size: 20px;
+}
+.text-a{
+  font-size: 25px;
+}
+.text-c{  
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cont{
+  height: 100rpx;
+  width: 100%;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+  align-items: center;
+  border-bottom: 1px solid #e9205a;
+}
+.cont-a{
+  margin-left: 10px;
+}
+.cont-b{
+  margin-right: 10px;
+}

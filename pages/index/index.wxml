@@ -1,0 +1,54 @@
+<view class="a">
+    <!-- 搜索框 -->
+    <view class="nav">
+      <view class="nav-a">
+          <input value="" placeholder="搜索" class="nav-b"></input>
+      </view>
+    </view>
+    <!-- 搜索框 -->
+
+    <!-- 轮播图 -->
+    <view class="item">
+        <swiper indicator-dots="true" 
+        indicator-color="#b2b2b2" 
+        indicator-active-color="#000000" 
+        autoplay="true"
+        interval="3000"
+        circular="true"
+        duration="1000"
+        >
+            <swiper-item 
+            wx:for="{{swiper_list}}"
+            wx:key="index"> 
+                <image src="{{item.image_src}}"></image>
+            </swiper-item>
+        </swiper>
+      </view>
+      <!-- 轮播图 -->
+
+      <!-- 导航条 -->
+      <view class="index">
+            <view class="index-a"
+            wx:for="{{catItems}}"
+            wx:key="{{index1}}">
+                <image src="{{item.image_src}}" class="index-b"></image>
+            </view>
+      </view>
+      <!-- 导航条 -->
+
+      <!-- 时尚服装 -->
+        <view class="fool" 
+            wx:for = "{{floorData}}">
+
+            <view class="fool-a">
+                    {{item.floor_title.name}}
+            </view>
+
+            <view class="fool-b">
+                <navigator wx:for="{{item.product_list}}" class="fool-c">
+                    <image src="{{item.image_src}}" class="fool-d"></image>
+                </navigator>
+            </view>
+        </view>
+      <!-- 时尚服装 -->
+</view>

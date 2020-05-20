@@ -1,0 +1,77 @@
+.a{
+  width: 375px;
+  height: 100%;
+  background:#eeee;
+}
+.nav{
+  height: 100rpx;
+  width: 100%;
+  background: #f93553;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-a{
+  display: flex;
+  height: 85%;
+  width: 95%;
+  border-radius: 5px;
+  background: white;
+}
+.nav-b{
+  height: 100%;
+  width: 100%;
+  margin-left: 45%;
+}
+.item{
+  width: 100%;
+  /* height: 260rpx; */
+}
+swiper-item image{
+  width: 100%;
+}
+.index{
+  display: flex;
+  width: 100%;
+  height:150rpx;
+  margin: 15px 0;
+  background: pink;
+}
+.index-a{
+  width: 100%;
+  height: 100%;
+}
+.index-b{
+  width: 100%;
+  height: 100%;
+}
+.fool{
+  width: 100%;
+  height: 300px;
+  /* background: pink; */
+}
+.fool-a{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  color: #fec0cb;
+  font-size: 25px;
+  align-items: center;
+  padding-left: 5px;
+  background: white;
+}
+.fool-b{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80%;
+}
+.fool-c{
+  width: 31.1%;
+  height:48%;
+  margin: 4px ;
+}
+.fool-d{
+  width: 100%;
+  height: 100%;
+}
